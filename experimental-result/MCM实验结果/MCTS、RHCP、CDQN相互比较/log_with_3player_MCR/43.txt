@@ -1,0 +1,168 @@
+predictor loaded
+nononononononononononononononononononononononononononononononononononononononononononononononononono
+return rhcp
+env id:2,agent id:2
+**************************************************MCTS agent
+3------>tensor([-1.4763])
+5------>tensor([-1.7046])
+7------>tensor([-1.6072])
+8------>tensor([-1.6431])
+9------>tensor([-1.6565])
+T------>tensor([-1.6589])
+J------>tensor([-1.6798])
+Q------>tensor([-1.6910])
+K------>tensor([-1.7011])
+A------>tensor([-1.6792])
+2------>tensor([-1.6700])
+B------>tensor([-1.7650])
+55------>tensor([-1.5041])
+99------>tensor([-1.6909])
+TT------>tensor([-1.7067])
+JJ------>tensor([-1.7246])
+AA------>tensor([-1.7160])
+22------>tensor([-1.7042])
+AAA------>tensor([-1.7555])
+222------>tensor([-1.7592])
+QAAA------>tensor([-1.7578])
+AAA2------>tensor([-1.7338])
+AAAB------>tensor([-1.8096])
+5AAA------>tensor([-1.7568])
+7AAA------>tensor([-1.6793])
+9AAA------>tensor([-1.7147])
+8AAA------>tensor([-1.7060])
+KAAA------>tensor([-1.7662])
+3AAA------>tensor([-1.5454])
+JAAA------>tensor([-1.7444])
+TAAA------>tensor([-1.7236])
+T222------>tensor([-1.7277])
+222B------>tensor([-1.8055])
+8222------>tensor([-1.7220])
+5222------>tensor([-1.7663])
+3222------>tensor([-1.5568])
+9222------>tensor([-1.7163])
+K222------>tensor([-1.7665])
+7222------>tensor([-1.6940])
+Q222------>tensor([-1.7649])
+J222------>tensor([-1.7477])
+A222------>tensor([-1.7553])
+99AAA------>tensor([-1.7548])
+55AAA------>tensor([-1.5752])
+JJAAA------>tensor([-1.7913])
+AAA22------>tensor([-1.7632])
+TTAAA------>tensor([-1.7643])
+JJ222------>tensor([-1.7959])
+TT222------>tensor([-1.7742])
+99222------>tensor([-1.7614])
+AA222------>tensor([-1.7837])
+55222------>tensor([-1.5879])
+789TJQ------>tensor([-1.4797])
+789TJQKA------>tensor([-1.4768])
+789TJ------>tensor([-1.3093])
+789TJQK------>tensor([-1.4255])
+89TJQ------>tensor([-1.6635])
+89TJQKA------>tensor([-1.6894])
+89TJQK------>tensor([-1.6463])
+9TJQKA------>tensor([-1.5899])
+9TJQK------>tensor([-1.6111])
+TJQKA------>tensor([-1.6910])
+99TTJJ------>tensor([-1.5461])
+userCards:B222AAAKQJT9553
+putCards:789TJ
+history:['789TJ']
+env id:3,agent id:2
+**************************************************CDQN agent
+history:['789TJ', '']
+env id:1,agent id:2
+rhcp intention['10', 'J', 'Q', 'K', 'A']
+history:['789TJ', '', 'TJQKA']
+env id:2,agent id:2
+**************************************************MCTS agent
+0------>tensor([-1.3048])
+userCards:B222AAAKQJT9553
+putCards:0
+history:['789TJ', '', 'TJQKA', '']
+env id:3,agent id:2
+**************************************************CDQN agent
+history:['789TJ', '', 'TJQKA', '', '']
+env id:1,agent id:2
+rhcp intention['3', '4', '5', '6', '7', '8']
+history:['789TJ', '', 'TJQKA', '', '', '345678']
+env id:2,agent id:2
+**************************************************MCTS agent
+9TJQKA------>tensor([0.0270])
+0------>tensor([-1.2144])
+userCards:B222AA553
+putCards:9TJQKA
+history:['789TJ', '', 'TJQKA', '', '', '345678', '9TJQKA']
+env id:3,agent id:2
+**************************************************CDQN agent
+history:['789TJ', '', 'TJQKA', '', '', '345678', '9TJQKA', '']
+env id:1,agent id:2
+rhcp intention[]
+history:['789TJ', '', 'TJQKA', '', '', '345678', '9TJQKA', '', '']
+env id:2,agent id:2
+**************************************************MCTS agent
+3------>tensor([0.5066])
+5------>tensor([-0.1869])
+A------>tensor([-0.2025])
+2------>tensor([-0.0947])
+B------>tensor([-0.2767])
+55------>tensor([0.6641])
+AA------>tensor([0.1774])
+22------>tensor([-0.1063])
+222------>tensor([-0.0623])
+222B------>tensor([-0.5495])
+5222------>tensor([-0.0426])
+3222------>tensor([0.8627])
+A222------>tensor([-0.3676])
+AA222------>tensor([-0.0828])
+55222------>tensor([1.0724])
+userCards:BAA3
+putCards:55222
+history:['789TJ', '', 'TJQKA', '', '', '345678', '9TJQKA', '', '', '55222']
+env id:3,agent id:2
+**************************************************CDQN agent
+history:['789TJ', '', 'TJQKA', '', '', '345678', '9TJQKA', '', '', '55222', '']
+env id:1,agent id:2
+rhcp intention[]
+history:['789TJ', '', 'TJQKA', '', '', '345678', '9TJQKA', '', '', '55222', '', '']
+env id:2,agent id:2
+**************************************************MCTS agent
+3------>tensor([1.2852])
+A------>tensor([0.7572])
+B------>tensor([0.9100])
+AA------>tensor([1.7141])
+userCards:B3
+putCards:AA
+history:['789TJ', '', 'TJQKA', '', '', '345678', '9TJQKA', '', '', '55222', '', '', 'AA']
+env id:3,agent id:2
+**************************************************CDQN agent
+history:['789TJ', '', 'TJQKA', '', '', '345678', '9TJQKA', '', '', '55222', '', '', 'AA', '']
+env id:1,agent id:2
+rhcp intention[]
+history:['789TJ', '', 'TJQKA', '', '', '345678', '9TJQKA', '', '', '55222', '', '', 'AA', '', '']
+env id:2,agent id:2
+**************************************************MCTS agent
+3------>tensor([1.8245])
+B------>tensor([1.8417])
+userCards:3
+putCards:B
+history:['789TJ', '', 'TJQKA', '', '', '345678', '9TJQKA', '', '', '55222', '', '', 'AA', '', '', 'B']
+env id:3,agent id:2
+**************************************************CDQN agent
+history:['789TJ', '', 'TJQKA', '', '', '345678', '9TJQKA', '', '', '55222', '', '', 'AA', '', '', 'B', '']
+env id:1,agent id:2
+rhcp intention[]
+history:['789TJ', '', 'TJQKA', '', '', '345678', '9TJQKA', '', '', '55222', '', '', 'AA', '', '', 'B', '', '']
+env id:2,agent id:2
+**************************************************MCTS agent
+3------>tensor([1.9908])
+userCards:
+putCards:3
+history:['789TJ', '', 'TJQKA', '', '', '345678', '9TJQKA', '', '', '55222', '', '', 'AA', '', '', 'B', '', '', '3']
+MCTS with role id 2 against RHCP, winning rate: 1.000000
+
+MCTS with role id 2 against RHCP, winning rate: 1.000000
+endendendendendendendendendendendendendendendendendendendendendendendendendendendendendendMCTS with role id 2 against RHCP, 
+winning rate: 1.000000
+

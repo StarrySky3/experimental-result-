@@ -1,0 +1,204 @@
+predictor loaded
+nononononononononononononononononononononononononononononononononononononononononononononononononono
+return rhcp
+env id:2,agent id:2
+**************************************************MCTS agent
+3------>tensor([-1.3667])
+4------>tensor([-1.5673])
+5------>tensor([-1.6545])
+6------>tensor([-1.6784])
+7------>tensor([-1.7107])
+8------>tensor([-1.5264])
+9------>tensor([-1.4046])
+T------>tensor([-1.4322])
+J------>tensor([-1.4212])
+A------>tensor([-1.4216])
+2------>tensor([-1.4391])
+B------>tensor([-1.5122])
+99------>tensor([-1.2657])
+TT------>tensor([-1.3436])
+JJ------>tensor([-1.2837])
+AA------>tensor([-1.4215])
+22------>tensor([-1.4342])
+999------>tensor([-1.3464])
+TTT------>tensor([-1.3025])
+AAA------>tensor([-1.3888])
+999B------>tensor([-1.4464])
+9992------>tensor([-1.3714])
+6999------>tensor([-1.6998])
+4999------>tensor([-1.6777])
+999T------>tensor([-1.3330])
+5999------>tensor([-1.6895])
+3999------>tensor([-1.3571])
+999A------>tensor([-1.3003])
+999J------>tensor([-1.3802])
+8999------>tensor([-1.4355])
+7999------>tensor([-1.7281])
+7TTT------>tensor([-1.7262])
+TTTA------>tensor([-1.2491])
+TTTJ------>tensor([-1.3388])
+TTT2------>tensor([-1.3414])
+8TTT------>tensor([-1.4450])
+3TTT------>tensor([-1.2771])
+TTTB------>tensor([-1.4023])
+4TTT------>tensor([-1.5896])
+9TTT------>tensor([-1.2741])
+5TTT------>tensor([-1.6877])
+6TTT------>tensor([-1.6965])
+AAA2------>tensor([-1.4320])
+AAAB------>tensor([-1.4901])
+5AAA------>tensor([-1.7170])
+4AAA------>tensor([-1.6234])
+7AAA------>tensor([-1.7756])
+9AAA------>tensor([-1.3784])
+8AAA------>tensor([-1.5016])
+3AAA------>tensor([-1.3746])
+JAAA------>tensor([-1.3861])
+TAAA------>tensor([-1.4155])
+6AAA------>tensor([-1.7475])
+999JJ------>tensor([-1.1670])
+999TT------>tensor([-1.2736])
+999AA------>tensor([-1.3523])
+99922------>tensor([-1.3421])
+TTTAA------>tensor([-1.3030])
+TTTJJ------>tensor([-1.1179])
+TTT22------>tensor([-1.2865])
+99TTT------>tensor([-1.1084])
+99AAA------>tensor([-1.2055])
+JJAAA------>tensor([-1.2018])
+AAA22------>tensor([-1.4301])
+TTAAA------>tensor([-1.3106])
+3456789TJ------>tensor([-0.5635])
+3456789------>tensor([-0.3193])
+34567------>tensor([-0.3900])
+345678------>tensor([-0.0279])
+3456789T------>tensor([-0.5361])
+456789T------>tensor([-0.9746])
+45678------>tensor([-0.4976])
+456789------>tensor([-0.7730])
+456789TJ------>tensor([-1.0469])
+56789------>tensor([-1.1814])
+56789TJ------>tensor([-1.4409])
+56789T------>tensor([-1.3940])
+6789TJ------>tensor([-1.6794])
+6789T------>tensor([-1.6518])
+789TJ------>tensor([-1.8209])
+99TTJJ------>tensor([-1.0272])
+999TTT------>tensor([-1.1501])
+userCards:B22AAAJJTTT999
+putCards:345678
+history:['345678']
+env id:3,agent id:2
+**************************************************CDQN agent
+history:['345678', '56789T']
+env id:1,agent id:2
+rhcp intention[]
+history:['345678', '56789T', '']
+env id:2,agent id:2
+**************************************************MCTS agent
+0------>tensor([0.0285])
+userCards:B22AAAJJTTT999
+putCards:0
+history:['345678', '56789T', '', '']
+env id:3,agent id:2
+**************************************************CDQN agent
+history:['345678', '56789T', '', '', '7']
+env id:1,agent id:2
+rhcp intention['Q']
+history:['345678', '56789T', '', '', '7', 'Q']
+env id:2,agent id:2
+**************************************************MCTS agent
+A------>tensor([-0.1161])
+2------>tensor([0.0781])
+B------>tensor([0.0444])
+0------>tensor([0.0744])
+userCards:B2AAAJJTTT999
+putCards:2
+history:['345678', '56789T', '', '', '7', 'Q', '2']
+env id:3,agent id:2
+**************************************************CDQN agent
+history:['345678', '56789T', '', '', '7', 'Q', '2', '']
+env id:1,agent id:2
+rhcp intention['*']
+history:['345678', '56789T', '', '', '7', 'Q', '2', '', 'L']
+env id:2,agent id:2
+**************************************************MCTS agent
+B------>tensor([0.1441])
+0------>tensor([0.2179])
+userCards:B2AAAJJTTT999
+putCards:0
+history:['345678', '56789T', '', '', '7', 'Q', '2', '', 'L', '']
+env id:3,agent id:2
+**************************************************CDQN agent
+history:['345678', '56789T', '', '', '7', 'Q', '2', '', 'L', '', '']
+env id:1,agent id:2
+rhcp intention['Q', 'Q', 'Q', '4', '4']
+history:['345678', '56789T', '', '', '7', 'Q', '2', '', 'L', '', '', '44QQQ']
+env id:2,agent id:2
+**************************************************MCTS agent
+99AAA------>tensor([0.0543])
+JJAAA------>tensor([0.7068])
+TTAAA------>tensor([0.0336])
+0------>tensor([0.3365])
+userCards:B2TTT999
+putCards:JJAAA
+history:['345678', '56789T', '', '', '7', 'Q', '2', '', 'L', '', '', '44QQQ', 'JJAAA']
+env id:3,agent id:2
+**************************************************CDQN agent
+history:['345678', '56789T', '', '', '7', 'Q', '2', '', 'L', '', '', '44QQQ', 'JJAAA', '']
+env id:1,agent id:2
+rhcp intention[]
+history:['345678', '56789T', '', '', '7', 'Q', '2', '', 'L', '', '', '44QQQ', 'JJAAA', '', '']
+env id:2,agent id:2
+**************************************************MCTS agent
+9------>tensor([0.4971])
+T------>tensor([0.5164])
+2------>tensor([1.2536])
+B------>tensor([1.1949])
+99------>tensor([0.2703])
+TT------>tensor([0.3409])
+999------>tensor([0.8937])
+TTT------>tensor([0.9785])
+999B------>tensor([1.0642])
+9992------>tensor([1.1953])
+999T------>tensor([0.4262])
+TTT2------>tensor([1.2209])
+TTTB------>tensor([1.0498])
+9TTT------>tensor([0.4533])
+999TT------>tensor([0.5476])
+99TTT------>tensor([0.5371])
+999TTT------>tensor([1.4570])
+userCards:B2
+putCards:999TTT
+history:['345678', '56789T', '', '', '7', 'Q', '2', '', 'L', '', '', '44QQQ', 'JJAAA', '', '', '999TTT']
+env id:3,agent id:2
+**************************************************CDQN agent
+history:['345678', '56789T', '', '', '7', 'Q', '2', '', 'L', '', '', '44QQQ', 'JJAAA', '', '', '999TTT', '']
+env id:1,agent id:2
+rhcp intention[]
+history:['345678', '56789T', '', '', '7', 'Q', '2', '', 'L', '', '', '44QQQ', 'JJAAA', '', '', '999TTT', '', '']
+env id:2,agent id:2
+**************************************************MCTS agent
+2------>tensor([1.7650])
+B------>tensor([1.7792])
+userCards:2
+putCards:B
+history:['345678', '56789T', '', '', '7', 'Q', '2', '', 'L', '', '', '44QQQ', 'JJAAA', '', '', '999TTT', '', '', 'B']
+env id:3,agent id:2
+**************************************************CDQN agent
+history:['345678', '56789T', '', '', '7', 'Q', '2', '', 'L', '', '', '44QQQ', 'JJAAA', '', '', '999TTT', '', '', 'B', '']
+env id:1,agent id:2
+rhcp intention[]
+history:['345678', '56789T', '', '', '7', 'Q', '2', '', 'L', '', '', '44QQQ', 'JJAAA', '', '', '999TTT', '', '', 'B', '', '']
+env id:2,agent id:2
+**************************************************MCTS agent
+2------>tensor([2.0032])
+userCards:
+putCards:2
+history:['345678', '56789T', '', '', '7', 'Q', '2', '', 'L', '', '', '44QQQ', 'JJAAA', '', '', '999TTT', '', '', 'B', '', '', '2']
+MCTS with role id 2 against RHCP, winning rate: 1.000000
+
+MCTS with role id 2 against RHCP, winning rate: 1.000000
+endendendendendendendendendendendendendendendendendendendendendendendendendendendendendendMCTS with role id 2 against RHCP, 
+winning rate: 1.000000
+

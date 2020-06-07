@@ -1,0 +1,140 @@
+predictor loaded
+nononononononononononononononononononononononononononononononononononononononononononononononononono
+******************************prepare start
+['J', '4', '10']
+['3', '4', '4', '5', '6', '7', '7', '8', '8', '9', '10', '10', 'J', 'J', 'Q', 'K', 'K', 'A', '2', '*']
+['3', '4', '6', '6', '6', '7', '7', '9', '9', '10', 'Q', 'Q', 'Q', 'K', 'A', '2', '$']
+['3', '3', '4', '5', '5', '5', '8', '8', '9', '10', 'J', 'J', 'K', 'A', 'A', '2', '2']
+env id:2,agent id:2
+**************************************************RHCP agent
+RHCPAgent intention
+curr_hand['3', '4', '4', '5', '6', '7', '7', '8', '8', '9', '10', '10', 'J', 'J', 'Q', 'K', 'K', 'A', '2', '*']
+self.allHistories['345678']
+env id:3,agent id:2
+**************************************************CDQN agent
+self.allHistories['345678', '0']
+env id:1,agent id:2
+0------>tensor([-0.9017])
+userCards:334555889TJJKAA22
+putCards:0
+self.allHistories['345678', '0', '0']
+env id:2,agent id:2
+**************************************************RHCP agent
+RHCPAgent intention
+curr_hand['4', '7', '8', '9', '10', '10', 'J', 'J', 'Q', 'K', 'K', 'A', '2', '*']
+self.allHistories['345678', '0', '0', '4']
+env id:3,agent id:2
+**************************************************CDQN agent
+self.allHistories['345678', '0', '0', '4', '7']
+env id:1,agent id:2
+8------>tensor([-0.8499])
+9------>tensor([-0.8282])
+T------>tensor([-0.8282])
+J------>tensor([-0.8365])
+K------>tensor([-0.8329])
+A------>tensor([-0.8310])
+2------>tensor([-0.8289])
+0------>tensor([-0.8154])
+####################################################################################################
+player1Put:3456784
+player2Put:7
+player3Put:0
+index:2
+upPutCard:7
+up2PutCard:4
+ownCards:334555889TJJKAA22
+branchInput:['0', 'T', '9', '2', 'A']
+earningInput:[1.18462073802948, 1.1718096733093262, 1.171774685382843, 1.1711123585700989, 1.1690497398376465]
+####################################################################################################
+---------------------0 3132 3137
+T 3093 3164
+9 3111 3254
+2 3047 3069
+A 3012 3029
+
+*****************************the result of mcts is['0 3132 3137', 'T 3093 3164', '9 3111 3254', '2 3047 3069', 'A 3012 3029', '']
+cnn put0
+userCards:33455588TJJKAA22
+putCards:9
+self.allHistories['345678', '0', '0', '4', '7', '9']
+env id:2,agent id:2
+**************************************************RHCP agent
+RHCPAgent intention
+curr_hand['7', '8', '9', '10', '10', 'J', 'J', 'Q', 'K', 'K', 'A', '2', '*']
+self.allHistories['345678', '0', '0', '4', '7', '9', 'K']
+env id:3,agent id:2
+**************************************************CDQN agent
+self.allHistories['345678', '0', '0', '4', '7', '9', 'K', '0']
+env id:1,agent id:2
+A------>tensor([-0.8351])
+2------>tensor([-0.8345])
+0------>tensor([-0.9060])
+####################################################################################################
+player1Put:3456784K
+player2Put:7
+player3Put:9
+index:2
+upPutCard:0
+up2PutCard:K
+ownCards:33455588TJJKAA22
+branchInput:['2', 'A', '0']
+earningInput:[1.1655358672142029, 1.1649491786956787, 1.0939844250679016]
+####################################################################################################
+---------------------2 4742 4905
+A 4845 4966
+0 4862 4989
+
+*****************************the result of mcts is['2 4742 4905', 'A 4845 4966', '0 4862 4989', '']
+userCards:33455588TJJKAA2
+putCards:2
+self.allHistories['345678', '0', '0', '4', '7', '9', 'K', '0', '2']
+env id:2,agent id:2
+**************************************************RHCP agent
+RHCPAgent intention
+curr_hand['7', '8', '9', '10', '10', 'J', 'J', 'Q', 'K', 'A', '2', '*']
+self.allHistories['345678', '0', '0', '4', '7', '9', 'K', '0', '2', 'L']
+env id:3,agent id:2
+**************************************************CDQN agent
+self.allHistories['345678', '0', '0', '4', '7', '9', 'K', '0', '2', 'L', '0']
+env id:1,agent id:2
+0------>tensor([-0.8995])
+userCards:33455588TJJKAA2
+putCards:0
+self.allHistories['345678', '0', '0', '4', '7', '9', 'K', '0', '2', 'L', '0', '0']
+env id:2,agent id:2
+**************************************************RHCP agent
+RHCPAgent intention
+curr_hand['7', '8', '9', '10', '10', 'J', 'J', 'Q', 'K', 'A', '2']
+self.allHistories['345678', '0', '0', '4', '7', '9', 'K', '0', '2', 'L', '0', '0', '789TJ']
+env id:3,agent id:2
+**************************************************CDQN agent
+self.allHistories['345678', '0', '0', '4', '7', '9', 'K', '0', '2', 'L', '0', '0', '789TJ', '0']
+env id:1,agent id:2
+0------>tensor([-1.0557])
+userCards:33455588TJJKAA2
+putCards:0
+self.allHistories['345678', '0', '0', '4', '7', '9', 'K', '0', '2', 'L', '0', '0', '789TJ', '0', '0']
+env id:2,agent id:2
+**************************************************RHCP agent
+RHCPAgent intention
+curr_hand['10', 'J', 'Q', 'K', 'A', '2']
+self.allHistories['345678', '0', '0', '4', '7', '9', 'K', '0', '2', 'L', '0', '0', '789TJ', '0', '0', 'TJQKA']
+env id:3,agent id:2
+**************************************************CDQN agent
+self.allHistories['345678', '0', '0', '4', '7', '9', 'K', '0', '2', 'L', '0', '0', '789TJ', '0', '0', 'TJQKA', '0']
+env id:1,agent id:2
+0------>tensor([-1.0175])
+userCards:33455588TJJKAA2
+putCards:0
+self.allHistories['345678', '0', '0', '4', '7', '9', 'K', '0', '2', 'L', '0', '0', '789TJ', '0', '0', 'TJQKA', '0', '0']
+env id:2,agent id:2
+**************************************************RHCP agent
+RHCPAgent intention
+curr_hand['2']
+self.allHistories['345678', '0', '0', '4', '7', '9', 'K', '0', '2', 'L', '0', '0', '789TJ', '0', '0', 'TJQKA', '0', '0', '2']
+RHCP with role id 2 against MCTS, winning rate: 1.000000
+
+RHCP with role id 2 against MCTS, winning rate: 1.000000
+endendendendendendendendendendendendendendendendendendendendendendendendendendendendendendRHCP with role id 2 against MCTS, 
+winning rate: 1.000000
+
